@@ -6,16 +6,100 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="game.css" type="text/css">
     <!--  TODO: Раскомментировать при начале работы с сервером -->
-<!--    <link rel="stylesheet" href="/css/bootstrap.css" type="text/css" />-->
-<!--    <link rel="stylesheet" href="/css/bootstrap-theme.css" type="text/css" />-->
+  <link rel="stylesheet" href="/css/bootstrap.css" type="text/css" />
+   <link rel="stylesheet" href="/css/bootstrap-theme.css" type="text/css" />
 
-    <!--  TODO: Закомментировать при начале работы с сервером -->
-<!--    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"-->
-<!--          integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">-->
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+      integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 </head>
 <body>
 <!-- TODO: Task 0. Построить вёрстку приложения по макету
           используя для сетки bootstrap -->
+
+<div class="game" id="game">
+    <div class="" id="main">
+        <div class="col-md-12" id="gameInfo">
+            <div class="col-md-12 info">
+                <span class="digit">
+                    123
+                </span>
+                <span class="registration">
+                    открыта регистрация
+                </span>
+            </div>
+            <div id="timer" class="col-md-12 timer">
+                <span class="timer">
+                    00:00
+                </span>
+            </div>
+            <div  class="col-md-3 team1" id="team1">
+                <div id="team1">
+                    <div class="title">
+                        <span id="team1Title" class="title-team1">
+                            Команда 1
+                        </span>
+                    </div> 
+                    <div id="team1Score">
+                        <div class="lifes">Жизни:
+                            <span id="tean1Lifes" class="currentLife">
+                            0
+                        </span>
+                        </div>
+                        <div class="coins">Монеты: 
+                            <span id="team1Coins" class="currentCoins">
+                            0
+                        </span>
+                    </div>
+                    </div>
+                    <div id="team1Players"></div>
+            </div>
+                </div>
+            <div class="col-md-6" id="gameField">
+                <canvas id="canvasField"></canvas>
+            </div>
+            <div class="col-md-3" id=team2>
+                <div class="team2">
+                    <div class="title2">
+                        <span id="team1Title" class="title-team1">
+                            Команда 2
+                        </span>
+                    </div>
+                    <div id="team1">
+                        <div class="">Жизни:<span id="tean1Lifes" class="team2-currentLife">
+                            0
+                        </span>
+    
+                        </div>
+                        <div id="team1Score">
+                            <div class="">Жизни: 
+                                <span id="team1Coins" class="team2-currentCoins">
+                                0
+                            </span>
+                        </div>
+                        </div>
+                        <div id="team1Players"></div>
+                    </div>
+                </div>               
+            </div>
+        </div>
+        <div class="" id="features">
+            <div class=" btn button1">
+                К списку игр
+            </div>
+            <div class="btn button1">
+                Начать игру
+            </div>
+            <div class="btn button1">
+                Покинуть игру
+            </div>
+            <div class="btn button1">
+                Прервать игру
+            </div>
+    </div>
+    </div>
+
+
+
 
 <div class="hidden">
     <img id="img_heart"

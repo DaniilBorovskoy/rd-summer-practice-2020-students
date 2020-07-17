@@ -1,3 +1,97 @@
 .hidden{
   display: none;
 }
+.game{
+  background-color: rgb(19, 16, 16);
+}
+.timer{
+  text-align: center;
+  font-size: 2em;
+}
+.info{
+  margin: 10px;
+  background-color: rgb(32, 33, 34);
+  border-radius: 5px;
+}
+.registration{
+  background-color: rgb(168, 131, 52);
+  border-radius: 3px;
+  vertical-align: top;
+  font-size: 1em;
+  padding: 1px;
+}
+.digit{
+  font-size: 2em;
+}
+.team1{
+  border: 2px double rgb(0, 132, 255);
+  border-radius: 4px;
+  background-color: rgb(32, 33, 34);
+  color: rgb(116, 136, 136);
+}
+.title{
+  background-color:  rgb(0, 132, 255);
+  border: 1px solid black;
+  margin-left: -14px;
+  margin-right: -14px;
+}
+.lifes{
+  margin-left: -13px;
+  margin-right: -13px;
+}
+.title-team1{
+  color: black;
+}
+.coins{
+  margin-left: -13px;
+  margin-right: -13px;
+}
+.currentCoins{
+  position: absolute;
+  left: 95%;
+  background-color: orange;
+  border: 1px solid black;
+  color: black;
+}
+
+.currentLife{
+  position: absolute;
+  left: 95.3%;
+  background-color: red;
+  color: black;
+}
+.team2-currentLife{
+  position: absolute;
+  left: 92.2%;
+  background-color: red;
+  border: 1px solid black;
+  color: black;
+}
+.team2-currentCoins{
+  position: absolute;
+  left: 92%;
+  background-color: orange;
+  border: 1px solid black;
+  color: black;
+}
+.team2{
+  border: 2px double orange;
+  border-radius: 4px;
+  background-color: rgb(32, 33, 34);
+  color: rgb(116, 136, 136);
+}
+.title2{
+  background-color: orange;
+}
+.button1{
+  display: inline-block;
+  color: white;
+  font-weight: 700;
+  text-decoration: none;
+  user-select: none;
+  padding: .5em 2em;
+  outline: none;
+  border: 2px solid white;
+  border-radius: 3px;
+  transition: 0.2s;
+}
